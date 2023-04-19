@@ -1,0 +1,20 @@
+Create the navbar navlinks and sublinks (POST)
+
+{
+  "navLinkText": "About Us",
+  "subNavLinks": [
+    {
+      "subNavLinkText": "About the Organisation",
+      "subNavLinkURL": "/about/org"
+    },
+    {
+      "subNavLinkText": "Vision and Mission",
+      "subNavLinkURL": "/about/vision-mission"
+    },
+    {
+      "subNavLinkText": "Former Chairperson",
+      "subNavLinkURL": "/about/former-chairperson"
+    }
+  ],
+  "component": "643f999bf3da0dff973a2339"
+}
