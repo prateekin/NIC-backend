@@ -13,6 +13,10 @@ const newsSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  url : {
+    type: String,
+    required: false,
+  },
   component: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Component",
